@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+header {
+  text-align: center;
+  background: linear-gradient(to right, #007BFF, #00BFFF);
+  color: #fff;
+  padding: 50px 0;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+section {
+  margin: 40px 0;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.01);
+}
+
+#about {
+  text-align: center;
+}
+
+#about img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 4px solid #007BFF;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+#about img:hover {
+  transform: scale(1.05);
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+ul li {
+  background: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+ul li:hover {
+  background: #0056b3;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  margin-top: 15px;
+  transition: transform 0.3s;
+}
+
+.project img:hover {
+  transform: scale(1.03);
+}
+
+.project a {
+  margin-top: 10px;
+  background-color: #007BFF;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.project a:hover {
+  background-color: #0056b3;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#resume a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #007BFF;
+  color: white;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+#resume a:hover {
+  background: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 40px;
+}
